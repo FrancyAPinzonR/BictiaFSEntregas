@@ -17,9 +17,9 @@
         <section class="operaciones">
             <article>
 
-                <input type="number" id="num1">
+                <input type="number" id="num1" placeholder="Primer Numero">
 
-                <input type="number" id="num2">
+                <input type="number" id="num2" placeholder="Segundo Numero">
             </article>
             <article>
                 <img src="./assets/src/mas.png" alt="Suma" onclick="operaciones('suma')">
@@ -28,9 +28,9 @@
                 <img src="./assets/src/division.png" alt="Division" onclick="operaciones('division')">
 
             </article>
-            <article>
-                <img src="./assets/src/igual.png" alt="Igual">
-                <span id="respuesta"></span>
+            <article class="resp">
+                <img src="./assets/src/igual.png" alt="Igual" onclick="operaciones()">
+                <p id="respuesta"></p>
             </article>
         </section>
     </main>
