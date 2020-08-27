@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(173, 207, 215);
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    background-color: rgb(252, 215, 173);
+    display: flex;
+    align-items: center;
+    padding: 1em 2em;
+    justify-content: left;
+    text-align: left;
+}
+
+h1 {
+    padding: 0.5em;
+    font-size: 2em;
+    font-family: monospace;
+}
+
+.srccalculadora {
+    width: 80px;
+}
+
+main {
+    padding: 5em;
+    text-align: center;
+}
+
+main img {
+    width: 80px;
+    padding: 1em;
+}
+
+.operaciones {
+    background-color: #0b6368c2;
+    border: 3px dotted #2c2c2c;
+    border-radius: 50px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    padding-top: 1em;
+    margin: 1rem 20rem;
+
+}
+
+
+.footer {
+    display: grid;
+    grid-area: footer2;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(165, 117, 72);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1em;
+}

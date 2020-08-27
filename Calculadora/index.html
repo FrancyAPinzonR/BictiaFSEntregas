@@ -4,11 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+    <header>
+        <img class="srccalculadora" src="./assets/src/calculadora.png" alt="Calculadora">
+        <h1>Mini-Calculadora</h1>
+    </header>
+    <main>
+        <section class="operaciones">
+            <article>
 
+                <input type="number" id="num1">
+
+                <input type="number" id="num2">
+            </article>
+            <article>
+                <img src="./assets/src/mas.png" alt="Suma" onclick="operaciones('suma')">
+                <img src="./assets/src/menos.png" alt="Resta" onclick="operaciones('resta')">
+                <img src="./assets/src/multiplicacion.png" alt="Multiplicacion" onclick="operaciones('multiplicacion')">
+                <img src="./assets/src/division.png" alt="Division" onclick="operaciones('division')">
+
+            </article>
+            <article>
+                <img src="./assets/src/igual.png" alt="Igual">
+                <span id="respuesta"></span>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <small>Copyright © 2020 by</small>
+            <small>Francy Alejandra Pinzon Ramos </small>
+        </section>
+    </footer>
     <script src="./assets/js/script.js"></script>
 </body>
 
