@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/StyleFormulario.css">
+</head>
+
+<body>
+    <header>
+        <img class="srcform" src="./assets/src/form.png" alt="Calculadora">
+        <h1>Formulario de Registro</h1>
+    </header>
+    <main>
+        <form class="formContact" onsubmit="validarFormulario(event)">
+            <div class="contInput">
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Nombre" id="name">
+                <small id="mensajeAlertaNombre" class="mensajeAlertaNombre"></small>
+            </div>
+            <div class="contInput">
+                <label for="lastname">Apellido</label>
+                <input type="text" placeholder="Apellido" id="lastname">
+                <small id="mensajeAlertaApellido" class="mensajeAlertaNombre"></small>
+            </div>
+            <div class="contInput">
+                <label for="email">Correo</label>
+                <input type="text" placeholder="Correo" id="email">
+                <small id="mensajeAlertaCorreo" class="mensajeAlertaNombre"></small>
+            </div>
+            <div class="contInput">
+                <label for="pass">Password</label>
+                <input type="password" placeholder="Password" id="pass">
+                <small id="mensajeAlertaPass" class="mensajeAlertaNombre"></small>
+            </div>
+            <div class="contInput">
+                <label for="edad">Edad</label>
+                <input type="number" placeholder="Edad" id="edad">
+                <small id="mensajeAlertaEdad" class="mensajeAlertaNombre"></small>
+            </div>
+            <div class="contInput inputTyC">
+                <label for="inpuTyC"> Acepta terminos y condiciones</label>
+                <input type="checkbox" id="inpuTyC">
+
+            </div>
+            <small id="mensajeAlertaTyC" class="mensajeAlertaNombre"></small>
+            <input type="submit" value="Enviar" class="btnEnviar">
+        </form>
+    </main>
+    <footer>
+        <section class="footer">
+            <small>Copyright © 2020 by</small>
+            <small>Francy Alejandra Pinzon Ramos </small>
+        </section>
+    </footer>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./assets/js/scriptFormulario.js"></script>
+</body>
+
+</html>
