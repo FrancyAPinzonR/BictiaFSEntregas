@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Fredoka One',
+        cursive;
+    background: url('../src/images/markus-spiske-hU9gx8YfVK4-unsplash.jpg') no-repeat center center fixed;
+    background-size: 1290px;
+    background-attachment: fixed;
+
+
+}
+
+.banner {
+    background-color: rgba(30, 59, 153, 0.966);
+    box-shadow: 0 2px gray;
+}
+
+
+.footer {
+    display: grid;
+    grid-area: footer;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(59, 48, 32);
+    color: honeydew;
+    padding: 1em;
+
+}
+
+/* .cambiofooter {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+} */
