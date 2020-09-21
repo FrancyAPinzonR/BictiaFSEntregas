@@ -1,63 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-html,
-body {
-    height: 100%;
-}
-
-
-#sticky-footer {
-    flex-shrink: none;
-}
-
 :root {
     --input-padding-x: 1.5rem;
-    --input-padding-y: .75rem;
+    --input-padding-y: 0.75rem;
 }
 
-.card-signin {
-    border: 0;
-    border-radius: 1rem;
-    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+.login,
+.image {
+    min-height: 80vh;
 }
 
-.card-signin .card-title {
-    margin-bottom: 2rem;
-    font-weight: 300;
-    font-size: 1.5rem;
-}
-
-.card-signin .card-img-left {
-    width: 45%;
-    background: scroll center url('https://images.unsplash.com/photo-1593987011155-542d44e8660e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80');
+.bg-image {
+    background-image: url('https://images.unsplash.com/photo-1584985429926-08867327d3a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
     background-size: cover;
+    background-size: 400px;
 
+    background-position: center;
 }
 
-.card-signin .card-body {
-    padding: 2rem;
+.login-heading {
+    font-weight: 300;
 }
 
-.form-signin {
-    width: 100%;
-}
-
-.form-signin .btn {
-    font-size: 80%;
-    border-radius: 5rem;
-    letter-spacing: .1rem;
-    font-weight: bold;
-    padding: 1rem;
-    transition: all 0.2s;
+.btn-login {
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
 }
 
 .form-label-group {
@@ -65,14 +32,11 @@ body {
     margin-bottom: 1rem;
 }
 
-.form-label-group input {
-    height: auto;
-    border-radius: 2rem;
-}
-
 .form-label-group>input,
 .form-label-group>label {
     padding: var(--input-padding-y) var(--input-padding-x);
+    height: auto;
+    border-radius: 2rem;
 }
 
 .form-label-group>label {
@@ -85,6 +49,8 @@ body {
     /* Override default `<label>` margin */
     line-height: 1.5;
     color: #495057;
+    cursor: text;
+    /* Match the input under the label */
     border: 1px solid transparent;
     border-radius: .25rem;
     transition: all .1s ease-in-out;
