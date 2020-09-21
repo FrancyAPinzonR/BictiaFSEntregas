@@ -5,10 +5,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styleprofile.css">
 </head>
 
 <body>
-    <h1>Profile</h1>
+    <main>
+        <div class="row py-1 px-4">
+            <div class="col-10 mx-auto">
+                <!-- Profile widget -->
+                <div class="bg-white shadow rounded overflow-hidden">
+                    <div class="px-4 pt-0 pb-4 bg-dark">
+                        <div class="media align-items-end profile-header">
+                            <div class="profile mr-3"><img
+                                    src="https://d19m59y37dris4.cloudfront.net/university/1-1-1/img/teacher-4.jpg"
+                                    alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#"
+                                    class="btn btn-dark btn-sm btn-block">Cerrar Sesion</a></div>
+                            <div class="media-body mb-5 text-white">
+                                <h4 class="mt-1 mb-5">Manuella Tarly</h4>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-light p-4 d-flex justify-content-end text-center">
+                        <ul class="list-inline mb-0">
+                            <li class="list-inline-item">
+                                <h4 class="font-weight-bold mb-0 d-block">Lista de Tareas</h4>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="py-4 px-4">
+                        <div class="d-flex align-items-center justify-content-between mb-0">
+                            <h5 class="mb-0 text-center">Mis Tareas Pendientes</h5>
+                            <small>
+                                <p class="note">
+                                    *Para marcar una tarea como realizada un click, para
+                                    eliminarla haz doble click
+                                </p>
+                            </small>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 my-2 bg-light rounded shadow-sm">
+                                <div class="font-italic mb-0">
+                                    <div class="containerListPendientes">
+                                        <ul id="list"></ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-8 mb-2 text-center">
+                                <div class="containerTitle">
+                                    <h2>Agregar Nuevas tareas</h2>
+                                </div>
+                                <div class="containerInput">
+                                    <input type="text" id="inputList" class="input form-control bg-light" />
+
+
+                                    <button id="btnList" class="btn btnList btn-secondary">Añadir Tarea</button>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div><!-- End profile widget -->
+
+            </div>
+        </div>
+    </main>
+    <script src="../js/profile.js"></script>
 </body>
 
 </html>
