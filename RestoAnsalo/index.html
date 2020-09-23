@@ -14,65 +14,67 @@
 
 <body>
     <main class="container col-lg-3 col-md-6 col-sm-12 mt-3 border border-dark rounded main" id="container">
-        <section class="col text-center mb-4 pt-1">
-            <h3>Reto de Ánsalo</h3>
-        </section>
-        <section class="row">
-            <div class="col d-flex justify-content-center">
-                <h4 class="mx-1">Letras</h4>
-                <p class="form-control" id="mletras"></p>
-            </div>
-        </section>
-        <section class="row ">
-            <div class="col d-flex">
-                <h4 class="mx-1">Numeros</h4>
-                <p class="form-control" id="mnumeros"></p>
-            </div>
-        </section>
-        <section class="py-2">
-            <section class="col d-flex flex-row-reverse">
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input toggle-trigger" id="customSwitch">
-                    <label class="custom-control-label" for="customSwitch">Tema Original</label>
+        <form>
+            <section class="col text-center mb-4 pt-1">
+                <h3>Reto de Ánsalo</h3>
+            </section>
+            <section class="row">
+                <div class="col d-flex justify-content-center">
+                    <h4 class="mx-1">Letras</h4>
+                    <p class="form-control" id="mletras"></p>
                 </div>
             </section>
-            <section class="col d-flex flex-row-reverse">
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input Treto toggle-trigger1" id="customSwitch1">
-                    <label class="custom-control-label" for="customSwitch1">Activar Tema Retro</label>
+            <section class="row ">
+                <div class="col d-flex">
+                    <h4 class="mx-1">Numeros</h4>
+                    <p class="form-control" id="mnumeros"></p>
                 </div>
             </section>
+            <section class="py-2">
+                <section class="col d-flex flex-row-reverse">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input toggle-trigger" id="customSwitch">
+                        <label class="custom-control-label" for="customSwitch">Tema Original</label>
+                    </div>
+                </section>
+                <section class="col d-flex flex-row-reverse">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input Treto toggle-trigger1" id="customSwitch1">
+                        <label class="custom-control-label" for="customSwitch1">Activar Tema Retro</label>
+                    </div>
+                </section>
 
-            <section class="col d-flex flex-row-reverse">
-                <div class="custom-control custom-switch">
-                    <input type="checkbox" class="custom-control-input Toscuro toggle-trigger2" id="customSwitch2">
-                    <label class="custom-control-label" for="customSwitch2">Tema Oscuro</label>
-                </div>
+                <section class="col d-flex flex-row-reverse">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input Toscuro toggle-trigger2" id="customSwitch2">
+                        <label class="custom-control-label" for="customSwitch2">Tema Oscuro</label>
+                    </div>
+                </section>
             </section>
-        </section>
-        <section class="py-2">
-            <div class="d-flex pb-2 justify-content-around">
-                <button type="button" class="btn btn-secondary btn-circle abecedario">A - 1</button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">B - 2</button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">C - 3</button>
-            </div>
-            <div class="d-flex pb-2 justify-content-around">
-                <button type="button" class="btn btn-secondary btn-circle abecedario">D - 4</button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">E - 5</button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">F - 6</button>
-            </div>
-            <div class="d-flex pb-2 justify-content-around">
-                <button type="button" class="btn btn-secondary btn-circle abecedario">G - 7</button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">H - 8</button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">I - 9</button>
-            </div>
-            <div class="d-flex pb-2 justify-content-around">
-                <button type="button" class="btn btn-secondary btn-circle abecedario" disabled> </button>
-                <button type="button" class="btn btn-secondary btn-circle abecedario">J - 0</button>
-                <button type="button" class="btn btn-secondary btn-circle" id="reset">Reset</button>
-            </div>
+            <section class="py-2">
+                <div class="d-flex pb-2 justify-content-around">
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">A - 1</button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">B - 2</button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">C - 3</button>
+                </div>
+                <div class="d-flex pb-2 justify-content-around">
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">D - 4</button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">E - 5</button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">F - 6</button>
+                </div>
+                <div class="d-flex pb-2 justify-content-around">
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">G - 7</button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">H - 8</button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">I - 9</button>
+                </div>
+                <div class="d-flex pb-2 justify-content-around">
+                    <button type="button" class="btn btn-secondary btn-circle abecedario" disabled> </button>
+                    <button type="button" class="btn btn-secondary btn-circle abecedario">J - 0</button>
+                    <button type="button" class="btn btn-secondary btn-circle" id="reset">Reset</button>
+                </div>
 
-        </section>
+            </section>
+        </form>
     </main>
 
     <footer class="col mt-3 py-3 bg-dark text-white">

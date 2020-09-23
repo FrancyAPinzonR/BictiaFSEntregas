@@ -140,7 +140,7 @@ const teclado = (e) => {
     }
     // Numeros
     else if (arrayLetras[arrayLetras.length - 1] == "J" && valorsepa != "A" && arrayNumeros == 0) {
-        swal("Error!", "Ingrese el numero 1 primero", "error");
+        swal("Error!", "Ingrese el numero  1  primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "J" && valorsepa == "A" && arrayNumeros == 0) {
         mnumeros.innerText += "1"
         arrayNumeros.push("1")
@@ -203,7 +203,7 @@ const teclado = (e) => {
         localStorage.setItem('numero', "9")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "9" && valorsepa != "J") {
-        swal("Error!", "Debe ingresar el numero" + 0 + "primero", "error");
+        swal("Error!", "Debe ingresar el numero 0 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "9" && valorsepa == "J") {
         mnumeros.innerText += "0"
         arrayNumeros.push("0")
