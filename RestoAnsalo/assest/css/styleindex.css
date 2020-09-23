@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-circle {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.main {
+    background-color: rgb(236, 233, 233);
+}
+
+.Treto {
+    background-image: url(../src/mario1.jpg);
+    background-size: contain;
+
+}
+
+.Toscuro {
+    background-color: #333;
+}
+
+.main.Treto {
+    font-family: 'Press Start 2P',
+        cursive;
+}
+
+.main.Treto h3 {
+    font-size: 20px;
+
+}
+
+.main.Treto h4 {
+    font-size: 15px;
+
+}
+
+.main.Treto p {
+    font-size: 12px;
+
+}
+
+.main.Treto label {
+    font-size: 10px;
+}
+
+.main.Treto p {
+    border-radius: 10px;
+    border: 3px solid yellow;
+}
+
+.main.Treto {
+    border-radius: 10px;
+}
+
+.main.Treto .btn-circle {
+    border-radius: 10%;
+    padding: 3px;
+    font-size: 8px;
+    background-color: rgb(224, 191, 43);
+    border: 3px solid rgb(240, 115, 32);
+}
+
+.main.Toscuro {
+    background-color: #333;
+    color: azure;
+}
+
+.main.Toscuro .btn-circle {
+    background-color: rgb(243, 243, 232);
+    color: black;
+}

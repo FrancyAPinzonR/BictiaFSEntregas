@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="titulo">RetoAnsalo</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/css/styleindex.css">
+</head>
+
+<body>
+    <main class="container col-lg-3 col-md-6 col-sm-12 mt-3 border border-dark rounded main" id="container">
+        <section class="col text-center mb-4 pt-1">
+            <h3>Reto de Ánsalo</h3>
+        </section>
+        <section class="row">
+            <div class="col d-flex justify-content-center">
+                <h4 class="mx-1">Letras</h4>
+                <p class="form-control" id="mletras"></p>
+            </div>
+        </section>
+        <section class="row ">
+            <div class="col d-flex">
+                <h4 class="mx-1">Numeros</h4>
+                <p class="form-control" id="mnumeros"></p>
+            </div>
+        </section>
+        <section class="py-2">
+            <section class="col d-flex flex-row-reverse">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input toggle-trigger" id="customSwitch">
+                    <label class="custom-control-label" for="customSwitch">Tema Original</label>
+                </div>
+            </section>
+            <section class="col d-flex flex-row-reverse">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input Treto toggle-trigger1" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1">Activar Tema Retro</label>
+                </div>
+            </section>
+
+            <section class="col d-flex flex-row-reverse">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input Toscuro toggle-trigger2" id="customSwitch2">
+                    <label class="custom-control-label" for="customSwitch2">Tema Oscuro</label>
+                </div>
+            </section>
+        </section>
+        <section class="py-2">
+            <div class="d-flex pb-2 justify-content-around">
+                <button type="button" class="btn btn-secondary btn-circle abecedario">A - 1</button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">B - 2</button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">C - 3</button>
+            </div>
+            <div class="d-flex pb-2 justify-content-around">
+                <button type="button" class="btn btn-secondary btn-circle abecedario">D - 4</button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">E - 5</button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">F - 6</button>
+            </div>
+            <div class="d-flex pb-2 justify-content-around">
+                <button type="button" class="btn btn-secondary btn-circle abecedario">G - 7</button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">H - 8</button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">I - 9</button>
+            </div>
+            <div class="d-flex pb-2 justify-content-around">
+                <button type="button" class="btn btn-secondary btn-circle abecedario" disabled> </button>
+                <button type="button" class="btn btn-secondary btn-circle abecedario">J - 0</button>
+                <button type="button" class="btn btn-secondary btn-circle" id="reset">Reset</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="col mt-3 py-3 bg-dark text-white">
+        <div class="container">
+            <span class="text-muted">Copyright © Francy Alejandra Pinzon Ramos</span>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./assest/js/scriptindex.js"></script>
+</body>
+
+</html>
