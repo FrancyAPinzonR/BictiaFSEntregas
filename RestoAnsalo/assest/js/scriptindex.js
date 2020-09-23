@@ -68,70 +68,70 @@ const teclado = (e) => {
 
 
     if (arrayLetras == 0 && valorsepa != "A") {
-        swal("Error!", "Por favor ingrese la letra A", "error");
+        swal("Error!", "Ingrese la letra A primero", "error");
     } else if (arrayLetras == 0 && valorsepa == "A") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "A")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "A" && valorsepa != "B") {
-        swal("Error!", "Por favor ingrese la letra B", "error");
+        swal("Error!", "Debe ingresar la letra B primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "A" && valorsepa == "B") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "B")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "B" && valorsepa != "C") {
-        swal("Error!", "Por favor ingrese la letra C", "error");
+        swal("Error!", "Debe ingresar la letra C primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "B" && valorsepa == "C") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "C")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "C" && valorsepa != "D") {
-        swal("Error!", "Por favor ingrese la letra D", "error");
+        swal("Error!", "Debe ingresar la letra D primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "C" && valorsepa == "D") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "D")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "D" && valorsepa != "E") {
-        swal("Error!", "Por favor ingrese la letra E", "error");
+        swal("Error!", "Debe ingresar la letra E primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "D" && valorsepa == "E") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "E")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "E" && valorsepa != "F") {
-        swal("Error!", "Por favor ingrese la letra F", "error");
+        swal("Error!", "Debe ingresar la letra F primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "E" && valorsepa == "F") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "F")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "F" && valorsepa != "G") {
-        swal("Error!", "Por favor ingrese la letra G", "error");
+        swal("Error!", "Debe ingresar la letra G primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "F" && valorsepa == "G") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "G")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "G" && valorsepa != "H") {
-        swal("Error!", "Por favor ingrese la letra H", "error");
+        swal("Error!", "Debe ingresar la letra H primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "G" && valorsepa == "H") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "H")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "H" && valorsepa != "I") {
-        swal("Error!", "Por favor ingrese la letra I", "error");
+        swal("Error!", "Debe ingresar la letra I primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "H" && valorsepa == "I") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
         localStorage.setItem('letra', "I")
         localStorage.setItem('datos', JSON.stringify(arrayLetras));
     } else if (arrayLetras[arrayLetras.length - 1] == "I" && valorsepa != "J") {
-        swal("Error!", "Por favor ingrese la letra J", "error");
+        swal("Error!", "Debe ingresar la letra J primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "I" && valorsepa == "J") {
         mletras.innerText += valorsepa
         arrayLetras.push(valorsepa)
@@ -140,70 +140,70 @@ const teclado = (e) => {
     }
     // Numeros
     else if (arrayLetras[arrayLetras.length - 1] == "J" && valorsepa != "A" && arrayNumeros == 0) {
-        swal("Error!", "Por favor ingrese el numero 1", "error");
+        swal("Error!", "Ingrese el numero 1 primero", "error");
     } else if (arrayLetras[arrayLetras.length - 1] == "J" && valorsepa == "A" && arrayNumeros == 0) {
         mnumeros.innerText += "1"
         arrayNumeros.push("1")
         localStorage.setItem('numero', "1")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "1" && valorsepa != "B") {
-        swal("Error!", "Por favor ingrese el numero 2", "error");
+        swal("Error!", "Debe ingresar el numero 2 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "1" && valorsepa == "B") {
         mnumeros.innerText += "2"
         arrayNumeros.push("2")
         localStorage.setItem('numero', "2")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "2" && valorsepa != "C") {
-        swal("Error!", "Por favor ingrese el numero 3", "error");
+        swal("Error!", "Debe ingresar el numero 3 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "2" && valorsepa == "C") {
         mnumeros.innerText += "3"
         arrayNumeros.push("3")
         localStorage.setItem('numero', "3")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "3" && valorsepa != "D") {
-        swal("Error!", "Por favor ingrese el numero 4", "error");
+        swal("Error!", "Debe ingresar el numero 4 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "3" && valorsepa == "D") {
         mnumeros.innerText += "4"
         arrayNumeros.push("4")
         localStorage.setItem('numero', "4")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "4" && valorsepa != "E") {
-        swal("Error!", "Por favor ingrese el numero 5", "error");
+        swal("Error!", "Debe ingresar el numero 5 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "4" && valorsepa == "E") {
         mnumeros.innerText += "5"
         arrayNumeros.push("5")
         localStorage.setItem('numero', "5")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "5" && valorsepa != "F") {
-        swal("Error!", "Por favor ingrese el numero 6", "error");
+        swal("Error!", "Debe ingresar el numero 6 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "5" && valorsepa == "F") {
         mnumeros.innerText += "6"
         arrayNumeros.push("6")
         localStorage.setItem('numero', "6")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "6" && valorsepa != "G") {
-        swal("Error!", "Por favor ingrese el numero 7", "error");
+        swal("Error!", "Debe ingresar el numero 7 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "6" && valorsepa == "G") {
         mnumeros.innerText += "7"
         arrayNumeros.push("7")
         localStorage.setItem('numero', "7")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "7" && valorsepa != "H") {
-        swal("Error!", "Por favor ingrese el numero 8", "error");
+        swal("Error!", "Debe ingresar el numero 8 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "7" && valorsepa == "H") {
         mnumeros.innerText += "8"
         arrayNumeros.push("8")
         localStorage.setItem('numero', "8")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "8" && valorsepa != "I") {
-        swal("Error!", "Por favor ingrese el numero 9", "error");
+        swal("Error!", "Debe ingresar el numero 9 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "8" && valorsepa == "I") {
         mnumeros.innerText += "9"
         arrayNumeros.push("9")
         localStorage.setItem('numero', "9")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "9" && valorsepa != "J") {
-        swal("Error!", "Por favor ingrese el numero 0", "error");
+        swal("Error!", "Debe ingresar el numero 10 primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "9" && valorsepa == "J") {
         mnumeros.innerText += "0"
         arrayNumeros.push("0")
