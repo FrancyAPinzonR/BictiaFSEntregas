@@ -203,7 +203,7 @@ const teclado = (e) => {
         localStorage.setItem('numero', "9")
         localStorage.setItem('numeros', JSON.stringify(arrayNumeros));
     } else if (arrayNumeros[arrayNumeros.length - 1] == "9" && valorsepa != "J") {
-        swal("Error!", "Debe ingresar el numero 10 primero", "error");
+        swal("Error!", "Debe ingresar el numero" + 0 + "primero", "error");
     } else if (arrayNumeros[arrayNumeros.length - 1] == "9" && valorsepa == "J") {
         mnumeros.innerText += "0"
         arrayNumeros.push("0")
