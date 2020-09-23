@@ -5,10 +5,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Windows</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/css/styleindex.css">
 </head>
 
 <body>
 
+    <main class="col-lg-3 my-2 py-1 mx-auto border border-dark shadow">
+        <section class="row">
+            <section class="col mx-auto ">
+                <div>
+                    <p class="titulo">Calculator</p>
+                    <hr class="m-1">
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <div class="standard">
+                        <label>Standard</label>
+                    </div>
+                    <div class="mt-1">
+                        <div class="button-top" role="button">
+                            <img src="./assest/src/historia.png" width="30" height="30" alt="historial">
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="form-control display" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg"></p>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary btn-sm button">MC</button>
+                    <button type="button" class="btn btn-secondary btn-sm button">MR</button>
+                    <button type="button" class="btn btn-secondary btn-sm button">M+</button>
+                    <button type="button" class="btn btn-secondary btn-sm button">M-</button>
+                    <button type="button" class="btn btn-secondary btn-sm button">MS</button>
+                    <button type="button" class="btn btn-secondary btn-sm button">M </button>
+                </div>
+            </section>
+        </section>
+        <section class="row">
+            <section class="col mx-auto">
+                <div class="d-flex justify-content-between pt-1">
+                    <button type="button" class="btn btn-secondary btn-lg teclado">%</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">CE</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">C</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">⌫</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-secondary btn-lg teclado">
+                        <span>
+                            <sup>1</sup>
+                        </span>
+                        <span>&frasl;</span>
+                        <span>
+                            <sub>x</sub>
+                        </span>
+                    </button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">√</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">𝒙<sup>2</sup></button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">÷</button>
+                </div>
+            </section>
+        </section>
+        <section class="row">
+            <section class="col mx-auto">
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-light btn-lg teclado">7</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">8</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">9</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">×</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-light btn-lg teclado">4</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">5</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">6</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">−</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-light btn-lg teclado">1</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">2</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">3</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">+</button>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-light btn-lg teclado">
+                        <span>
+                            <sup>+</sup>
+                        </span>
+                        <span>&frasl;</span>
+                        <span>
+                            <sub>-</sub>
+                        </span>
+                    </button>
+                    <button type="button" class="btn btn-light btn-lg teclado">0</button>
+                    <button type="button" class="btn btn-light btn-lg teclado">,</button>
+                    <button type="button" class="btn btn-secondary btn-lg teclado">=</button>
+                </div>
+            </section>
+        </section>
+
+    </main>
+
+    <footer class="col mt-3 py-3 bg-info">
+        <div class="container">
+            <span>Copyright © Francy Alejandra Pinzon Ramos</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
