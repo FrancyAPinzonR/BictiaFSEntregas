@@ -44,7 +44,7 @@ const mostrarPokemon = (pokemon) => {
 
     html += '<div class="col-10 my-3 ">';
     html += '<div class="card" style="width: 20rem;">';
-    html += ` <img src="${pokemon.sprites.front_default}" class="card-img-top"  alt="pokemon">`;
+    html += ` <img src="${pokemon.sprites.other.dream_world.front_default}" class="card-img-top"  alt="pokemon">`;
     html += '<div class="card-body ">';
     html += ` <h5 class="card-title"><b>Pokedex ID:</b> ${pokemon.id}</h5>`;
     html += ` <h5 class="card-title"><b>Name:</b> ${pokemon.name}</h5>`;
